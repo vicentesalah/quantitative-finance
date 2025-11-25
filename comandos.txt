@@ -1,0 +1,16 @@
+# Crear ambiente virtual
+python -m venv .venv
+
+# Activar ambiente virtual
+Revisar versión python (Abajo a la derecha)
+
+# Instalar librerías
+pip install -r requirements.txt
+
+# === GITHUB ===
+
+# Estado de la branch
+git status
+
+# Guardar cambios
+git add
