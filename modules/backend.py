@@ -263,4 +263,3 @@ def tickers_by_issuer(issuer:str) -> pd.DataFrame:
     df = db.execute_query(query)
 
     return df
-
