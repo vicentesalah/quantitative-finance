@@ -255,7 +255,7 @@ def tickers_by_issuer(issuer:str) -> pd.DataFrame:
     query = f"""
     SELECT DISTINCT
     EMISOR, TICKER, CATEGORIA
-    FROM DM_ISTRUMENTOS
+    FROM DM_INSTRUMENTOS
     WHERE EMISOR = "{issuer}"
     """
 
